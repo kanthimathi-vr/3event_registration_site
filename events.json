@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "title": "Tech Conference 2025",
+    "description": "Join the brightest minds in technology.",
+    "image": "images/event1.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Startup Pitch Night",
+    "description": "Watch or pitch to top investors.",
+    "image": "images/event2.jpg"
+  }
+]

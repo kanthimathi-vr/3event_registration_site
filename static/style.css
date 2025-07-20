@@ -1,0 +1,100 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    background: #f8f9fa;
+    color: #333;
+}
+
+header {
+    background: #003366;
+    color: white;
+    padding: 1rem 2rem;
+    text-align: center;
+}
+
+header h1 a {
+    color: #61dafb;
+    text-decoration: none;
+}
+
+main {
+    max-width: 960px;
+    margin: auto;
+    padding: 2rem;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background:#003366;
+    font-size: 0.9rem;
+    color: white;
+}
+
+.event-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.event-card {
+    background: #fff;
+    border-radius: 6px;
+    box-shadow: 0 0 10px #ccc;
+    width: 45%;
+    padding: 1rem;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.event-card img {
+    max-width: 100%;
+    border-radius: 4px;
+}
+
+.event-card h3 a {
+    text-decoration: none;
+    color: #003366;
+}
+
+.event-detail img {
+    width: 100%;
+    border-radius: 6px;
+    margin-bottom: 1rem;
+}
+
+.register-form {
+    margin-top: 1rem;
+}
+
+.register-form input {
+    display: block;
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.register-form button {
+    padding: 0.6rem 1.2rem;
+    background: #61dafb;
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.register-form button:hover {
+    background: #21a1f1;
+}
+
+.success-msg {
+    background: #d4edda;
+    color: #155724;
+    padding: 1rem;
+    border-radius: 5px;
+    margin-top: 1rem;
+    border: 1px solid #c3e6cb;
+}
